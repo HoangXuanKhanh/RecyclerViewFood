@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E49E9E"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_chill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_chillhoa" />
+
+    <LinearLayout
+        android:layout_marginTop="450dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <EditText
+        android:id="@+id/ed_UserName"
+        android:textSize="25sp"
+        android:textColor="#FA0404"
+        android:maxLines="1"
+        android:hint="User"
+        android:maxLength="20"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="70dp"
+        android:layout_width="300dp"
+        android:layout_height="70dp"/>
+
+    <EditText
+        android:id="@+id/ed_PassName"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:maxLines="1"
+        android:hint="Password"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:layout_marginStart="70dp"
+        android:layout_width="300dp"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:id="@+id/btn_DangNhap"
+        android:text="Đăng Nhập"
+        android:textSize="18sp"
+        android:textColor="#601BDA"
+        android:textStyle="bold"
+        android:backgroundTint="#1E0707"
+        android:layout_marginStart="140dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

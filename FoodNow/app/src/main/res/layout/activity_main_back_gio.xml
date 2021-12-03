@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityBackGio">
+
+    <RelativeLayout
+        android:id="@+id/btn_Back"
+        android:background="#FFC107"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginRight="370dp"
+            android:src="@drawable/ic_baseline" />
+        <TextView
+            android:id="@+id/tv_Order"
+            android:text="Your order"
+            android:textSize="35sp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_GioHangRec"
+        android:layout_marginVertical="140dp"
+        android:background="@drawable/ic_listmain"
+        android:textSize="40sp"
+        android:textColor="#000"
+        android:text="Hoang xuan khanh"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+    <TextView
+        android:id="@+id/tv_Totals"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginVertical="590dp"
+        android:layout_marginTop="550dp"
+        android:text="Total:"
+        android:textColor="#000"
+        android:textSize="35sp" />
+
+    </RelativeLayout>
